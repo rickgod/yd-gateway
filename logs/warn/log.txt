@@ -1,0 +1,255 @@
+2025-09-24 17:06:14 org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/C:/Users/liwenrui/.m2/repository/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/C:/Users/liwenrui/.m2/repository/io/springfox/springfox-spring-webmvc/3.0.0/springfox-spring-webmvc-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthEndpointWebMvcHandlerMapping' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointWebExtensionConfiguration$MvcAdditionalHealthEndpointPathsConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.servlet.AdditionalHealthEndpointPathsWebMvcHandlerMapping]: Factory method 'healthEndpointWebMvcHandlerMapping' threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayControllerEndpoint' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$GatewayActuatorConfiguration.class]: Unsatisfied dependency expressed through method 'gatewayControllerEndpoint' parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'modifyRequestBodyGatewayFilterFactory' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration.class]: Unsatisfied dependency expressed through method 'modifyRequestBodyGatewayFilterFactory' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.http.codec.ServerCodecConfigurer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-24 17:06:14 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 17:06:14 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 17:06:14 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 17:06:14 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 17:44:37 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 17:44:37 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 17:44:37 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 17:44:37 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 17:54:37 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 17:54:37 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 17:54:37 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 17:54:37 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 18:01:18 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 18:01:18 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 18:01:18 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 18:01:18 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 18:06:11 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 18:06:11 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 18:06:11 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 18:06:11 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 18:06:45 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 18:06:45 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 18:06:45 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 18:06:45 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 18:13:58 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 18:13:58 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 18:13:58 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 18:13:58 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 20:06:10 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 20:06:10 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 20:06:10 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 20:06:10 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 21:12:18 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 21:12:18 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 21:13:29 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayControllerEndpoint' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$GatewayActuatorConfiguration.class]: Unsatisfied dependency expressed through method 'gatewayControllerEndpoint' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nettyWriteResponseFilter' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$NettyConfiguration.class]: Unsatisfied dependency expressed through method 'nettyWriteResponseFilter' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'gatewayProperties': Could not bind properties to 'GatewayProperties' : prefix=spring.cloud.gateway, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.cloud.gateway.routes[1].predicates[1]' to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition
+2025-09-24 21:13:45 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'gatewayControllerEndpoint' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$GatewayActuatorConfiguration.class]: Unsatisfied dependency expressed through method 'gatewayControllerEndpoint' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nettyWriteResponseFilter' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$NettyConfiguration.class]: Unsatisfied dependency expressed through method 'nettyWriteResponseFilter' parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'gatewayProperties': Could not bind properties to 'GatewayProperties' : prefix=spring.cloud.gateway, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.cloud.gateway.routes[1].predicates[1]' to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition
+2025-09-24 21:14:23 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 21:14:23 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 21:14:23 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 21:14:23 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 21:22:33 com.yd.gateway.filter.AuthFilter - 请求路径 /yd-center/test/nacos 缺少认证token
+2025-09-24 21:26:10 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 21:26:10 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 21:26:10 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 21:26:10 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 21:50:38 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 21:50:38 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 21:50:38 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 21:50:38 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 22:42:51 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 22:42:51 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 22:42:51 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 22:42:51 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 22:47:08 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 22:47:08 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 22:47:08 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 22:47:08 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 22:47:54 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-24 22:53:48 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-24 22:53:48 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-24 22:53:48 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-24 22:53:48 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-24 23:19:00 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-25 00:15:47 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 00:15:47 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 00:15:47 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 00:15:47 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 10:11:29 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-25 10:45:07 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 10:45:07 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 10:45:07 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 10:45:07 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 10:45:41 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-25 10:45:59 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2025-09-25 10:46:01 org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: yd-center
+2025-09-25 10:46:12 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 10:46:12 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 10:46:12 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 10:46:12 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 10:52:28 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-25 15:01:15 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 15:01:15 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 15:01:15 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 15:01:15 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 15:08:16 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-25 15:35:11 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 15:35:11 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 15:35:11 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 15:35:11 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 15:47:02 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nacosServiceEventListener' defined in file [D:\projects\yd-gateway\target\classes\com\yd\gateway\config\NacosServiceEventListener.class]: Unsatisfied dependency expressed through constructor parameter 2; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.String' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-25 15:55:37 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-25 16:00:34 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 16:00:34 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 16:00:34 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 16:00:34 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 16:47:53 org.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'discovery-refresh' contains invalid characters, please migrate to a valid format.
+2025-09-25 16:48:17 org.springframework.cloud.loadbalancer.core.ServiceInstanceListSupplierBuilder - LoadBalancerCacheManager not available, returning delegate without caching.
+2025-09-25 16:50:02 org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: yd-center
+2025-09-25 16:50:12 org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: yd-center
+2025-09-25 16:50:19 org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer - No servers available for service: yd-center
+2025-09-25 16:54:29 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 16:54:29 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 16:54:29 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 16:54:29 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 16:56:03 org.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'discovery-refresh' contains invalid characters, please migrate to a valid format.
+2025-09-25 16:56:04 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-25 20:23:17 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 20:23:17 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 20:23:17 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 20:23:17 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 20:32:41 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'namingEventBridge' defined in file [D:\projects\yd-gateway\target\classes\com\yd\gateway\config\NamingEventBridge.class]: Unsatisfied dependency expressed through constructor parameter 3; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.cloud.loadbalancer.cache.LoadBalancerCacheManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-09-25 20:41:46 org.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'discovery-refresh' contains invalid characters, please migrate to a valid format.
+2025-09-25 20:48:24 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 20:48:24 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 20:48:24 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 20:48:24 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 20:48:36 org.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'discovery-refresh' contains invalid characters, please migrate to a valid format.
+2025-09-25 20:59:50 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 20:59:50 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 20:59:50 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 20:59:50 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 22:49:12 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-25 23:01:40 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 23:01:40 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 23:01:40 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 23:01:40 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-25 23:01:57 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-25 23:52:39 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-25 23:52:39 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-25 23:52:39 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-25 23:52:39 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 10:39:50 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 10:43:01 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 10:43:01 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 10:43:01 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 10:43:01 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 10:44:04 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 10:54:34 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 10:54:34 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 10:54:34 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 10:54:34 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 10:57:05 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 10:59:05 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 10:59:05 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 10:59:05 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 10:59:05 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 11:15:54 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 11:19:19 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 11:19:19 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 11:19:19 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 11:19:19 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 16:16:01 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2025-09-26 16:16:01 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2025-09-26 16:16:02 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:16:02 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:16:15 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 16:16:22 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2025-09-26 16:16:23 org.springframework.beans.factory.support.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-26 16:16:26 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 16:16:26 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 16:16:26 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 16:16:26 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 16:17:35 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2025-09-26 16:17:35 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2025-09-26 16:17:42 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:17:44 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:17:59 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 16:18:05 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2025-09-26 16:18:06 org.springframework.beans.factory.support.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-26 16:18:09 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 16:18:09 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 16:18:09 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 16:18:09 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 16:34:22 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2025-09-26 16:34:22 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2025-09-26 16:34:26 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:34:26 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:34:39 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 16:34:45 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2025-09-26 16:34:46 org.springframework.beans.factory.support.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-26 16:34:49 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 16:34:49 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 16:34:49 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 16:34:49 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 16:35:34 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2025-09-26 16:35:34 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2025-09-26 16:35:36 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:35:36 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:35:49 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 16:35:55 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2025-09-26 16:35:56 org.springframework.beans.factory.support.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-26 16:35:59 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 16:35:59 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 16:35:59 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 16:35:59 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 16:37:20 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:37:20 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:37:32 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'simpleNacosServiceListener': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Request nacos server failed: 
+2025-09-26 16:37:32 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 16:37:32 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 16:37:32 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 16:37:32 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 16:42:23 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:42:24 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:43:40 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'simpleNacosServiceListener': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Request nacos server failed: 
+2025-09-26 16:43:40 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 16:43:40 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 16:43:40 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 16:43:40 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 16:50:49 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:50:49 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:52:03 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'simpleNacosServiceListener': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Request nacos server failed: 
+2025-09-26 16:52:03 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 16:52:03 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 16:52:03 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 16:52:03 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 16:55:03 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:55:03 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 16:55:37 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'simpleNacosServiceListener': Invocation of init method failed; nested exception is ErrCode:500, ErrMsg:Request nacos server failed: 
+2025-09-26 16:55:37 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 16:55:37 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 16:55:37 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 16:55:37 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 17:06:28 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 17:06:28 org.reflections.Reflections - given scan urls are empty. set urls in the configuration
+2025-09-26 17:06:38 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2025-09-26 17:06:38 com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2025-09-26 17:06:41 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 17:06:45 org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is java.lang.reflect.UndeclaredThrowableException
+2025-09-26 17:06:45 org.springframework.beans.factory.support.DisposableBeanAdapter - Custom destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2025-09-26 17:06:46 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 17:06:46 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 17:06:46 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 17:06:46 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 17:08:41 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 17:09:07 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 17:09:07 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 17:09:07 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 17:09:07 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 17:10:04 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 17:10:51 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 17:10:51 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 17:10:51 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 17:10:51 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 17:12:09 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 17:18:29 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 17:18:29 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 17:18:29 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 17:18:29 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end
+2025-09-26 17:19:28 org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-09-26 17:19:34 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Start destroying Publisher
+2025-09-26 17:19:34 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Start destroying common HttpClient
+2025-09-26 17:19:34 com.alibaba.nacos.common.notify.NotifyCenter - [NotifyCenter] Destruction of the end
+2025-09-26 17:19:34 com.alibaba.nacos.common.http.HttpClientBeanHolder - [HttpClientBeanHolder] Destruction of the end

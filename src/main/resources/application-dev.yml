@@ -1,0 +1,66 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: yd-gateway
+  cache:
+    type: caffeine
+    cache-names: LoadBalancerCache
+    caffeine:
+      spec: maximumSize=1000,expireAfterWrite=30s
+  cloud:
+    loadbalancer:
+      cache:
+        enabled: true # false禁用缓存，确保实例列表每次都走最新
+        ttl: 30s   # 平时命中缓存，减少开销
+    nacos:
+      discovery:
+        server-addr: 192.168.192.112:8848
+        namespace: YD_DEV
+        username: nacos
+        password: nacos
+        # 指定注册IP
+        ip: 192.168.192.1
+    gateway:
+      discovery:
+        locator:
+          enabled: false
+          lower-case-service-id: true
+      routes:
+        # 认证中心转发
+        - id: yd-center
+          uri: lb://yd-center
+#          uri: http://192.168.192.1:8083
+          predicates:
+            - Path=/center/**
+            - Method=GET
+          filters:
+            - StripPrefix=0  # 不截取任何路径前缀
+        # 创意流服务转发
+        - id: yd-flow
+          uri: lb://yd-flow
+          predicates:
+            - Path=/flow/**
+
+        - id: test-route
+          uri: http://httpbin.org
+          predicates:
+            - Path=/test/**
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: gateway, health
+
+# 日志配置
+logging:
+  level:
+    org.springframework: WARN
+    org.springframework.cloud.gateway: WARN
+    org.springframework.cloud.gateway.filter: WARN
+    org.springframework.cloud.gateway.route: WARN
+    com.yd.gateway: DEBUG
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
