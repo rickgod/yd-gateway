@@ -7,10 +7,14 @@ import com.alibaba.nacos.api.naming.listener.NamingEvent;
 import com.alibaba.nacos.api.naming.pojo.ListView;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.gateway.route.RouteDefinitionWriter;
+import org.springframework.cloud.loadbalancer.cache.LoadBalancerCacheManager;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 import com.alibaba.nacos.api.naming.NamingService;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
+import javax.annotation.Resource;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.TimeUnit;
@@ -23,6 +27,12 @@ public class SimpleNacosServiceListener {
 
     @Autowired
     private NacosDiscoveryProperties nacosDiscoveryProperties;
+
+//    @Autowired
+//    private RouteDefinitionWriter routeDefinitionWriter;
+
+    @Resource(name = "caffeineLoadBalancerCacheManager")
+    private LoadBalancerCacheManager loadBalancerCacheManager;
     // 当前已订阅的服务集合，用于对比和管理
     private final Set<String> subscribedServices = ConcurrentHashMap.newKeySet();
 
@@ -192,6 +202,10 @@ public class SimpleNacosServiceListener {
                 log.info("监听到服务变化 - 服务名: {}, 当前实例数: {}",
                         changedServiceName, instanceCount);
                 // 这里可以根据实际需求处理实例变化事件
+                // 刷新网关路由缓存
+//                routeDefinitionWriter.setRouteDefinitions(Mono.empty()).subscribe();   //不是这样用的
+                log.info("刷新负载均衡缓存");
+                loadBalancerCacheManager.getCache("CachingServiceInstanceListSupplierCache").clear();
             }
         };
 

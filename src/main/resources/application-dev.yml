@@ -4,16 +4,12 @@ server:
 spring:
   application:
     name: yd-gateway
-  cache:
-    type: caffeine
-    cache-names: LoadBalancerCache
-    caffeine:
-      spec: maximumSize=1000,expireAfterWrite=30s
   cloud:
     loadbalancer:
       cache:
         enabled: true # false禁用缓存，确保实例列表每次都走最新
         ttl: 30s   # 平时命中缓存，减少开销
+        capacity: 256
     nacos:
       discovery:
         server-addr: 192.168.192.112:8848
